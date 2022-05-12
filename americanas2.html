@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title> Americanas </title>
+	<meta charset="utf-8">
+    <style>
+        body{
+            margin: 0;}
+        main{
+            width: 100vw;
+            height: 100vh;
+            
+        }
+        .caixa{
+           width: 550px;
+           height: 660px;
+           margin: 0 auto;
+        }
+    </style>
+	<script type="text/javascript">
+		function troca_imagem(elemento) {
+			document.getElementById("alvo").src=elemento.src;
+		}
+	</script>
+</head>
+<body>
+    <main>
+            <div class="caixa">
+	<img id="alvo" width="500" src="images/tv-01.jpg" alt="" title="">
+	<br>
+	<img class="tumb" width="100" src="images/tv-01.jpg" alt="" title="" onClick="troca_imagem(this)">
+	<img class="tumb" width="100" src="images/tv-02.jpg" alt="" title="" onClick="troca_imagem(this)">
+	<img class="tumb" width="100" src="images/tv-03.jpg" alt="" title="" onClick="troca_imagem(this)">
+	<img class="tumb"width="100" src="images/tv-04.jpg" alt="" title="" onClick="troca_imagem(this)">
+	<img class="tumb" width="100" src="images/tv-05.jpg" alt="" title="" onClick="troca_imagem(this)">
+    </div>
+    </main>
+
+</body>
+</html>
