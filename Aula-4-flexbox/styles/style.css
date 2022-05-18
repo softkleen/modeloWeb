@@ -1,0 +1,124 @@
+@import url(../styles/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Inter:wght@700&display=swap?family=Anaheim&display=swap');
+body{
+    /* background-color: #051027; */
+    background: linear-gradient(180deg, rgba(5,16,39,1) 71%,rgba(255,255,255,1)62.79%);
+    width: 1440px;
+    margin: 0 auto;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 14px;
+    align-items: center;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 10px; /* insere 10 pixels de espaço entre os item do container */
+    font-family: 'Actor', sans-serif;
+    font-size: 16px;
+}
+.cabecalho-menu-item{
+    text-decoration: none;
+    color: #f8f7f7;
+}
+.cabecalho-busca{
+    background-color: rgba(255, 255, 255, 20%);
+    border-radius: 3px;
+    color: #f8f7f7;
+}
+.cabecalho-inscrever{
+    color: #f8f7f7;
+    border: 0.7px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 5%);
+}
+.cabecalho-entrar{
+    color: #f8f7f7;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0%);
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+}
+.conteudo-principal{ /* 1ª sessão do html */
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo-principal-escrito{
+    color: #f8f7f7;
+    width: 470px;
+    word-wrap: normal;
+    font-family: 'Inter', sans-serif;
+}
+.conteudo-principal-escrito-titulo{
+    font-size: 47px;
+}
+.conteudo-principal-escrito-subtitulo{
+    width: 392px;
+    color: #bdbdbd;
+    font-size: 15px;
+    line-height: 17px;
+}
+.conteudo-principal-inscrever{
+    width: 106px;
+    height: 30px;
+    background: #2EA44F;
+    border-radius: 5px;
+    color: #bdbdbd;
+    font-size: 10px;
+    text-align: center;
+}
+.conteudo-principal-email-caixa{
+    font-size: 13px;
+    width: 215px;
+    background: #fff;
+    padding: 5px;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 150px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.conteudo-secundario-dados{
+    display: flex;
+    color: #f8f7f7;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 55px;
+    padding-bottom: 55px;
+    padding-top: 25px;
+    border-top: 1px solid #bdbdbd;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Anaheim',sans-serif;
+    gap: 4px;
+}
+.conteudo-secundario-dados-item{
+    font-size: 15px;
+}
+.conteudo-secundario-dados-item-cat{
+    font-size: 10px;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
