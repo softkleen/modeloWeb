@@ -7,68 +7,71 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <div>
-        <h1>Cadastro de alunos</h1>
-        <p>Preencha com seus dados e opções de curso</p>
-    </div>
-    <form action="" method="post">
-        <fieldset>
-            <div>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" required>
-            </div>
-            <div>
-                <label for="cpf" id="cpf">CFP</label>
-                <input type="number" name="cpf" id="cpf" required placeholder="12345678900" maxlength="11">
-            </div>
-          </fieldset>          
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required>
-            </div>
-            <div>
-                <label><strong>Qual o instrumento preferido?</strong></label><br>
-                <label>
-                    <input type="radio" name="preferencia" value="violao" checked>Violão
-                </label>
-                <label>
-                    <input type="radio" name="preferencia" value="teclado">Teclado
-                </label>
-                <label>
-                    <input type="radio" name="preferencia" value="violino">Violino
-                </label>
-                <label>
-                    <input type="radio" name="preferencia" value="sax">Saxofone
-                </label>
-            </div>
-            <div>
-                <label for="nivel"><strong>Nível</strong></label>
-                <select name="nivel" id="nivel" required>
-                    <option value="" disabled selected>Selecione...</option>
-                    <option value="iniciante">Iniciante</option>
-                    <option value="basico">Básico</option>
-                    <option value="intermediario">Intermediário</option>
-                    <option value="avancado">Avançado</option>
-                </select>
-            </div>
-        <fieldset>
-            <div>
-                <label><strong>Selecione os instrumentos que deseja aprender a tocar?</strong></label>
-                <br>
-                <label><input type="checkbox" name="instrumento1" id="instrumento1" value="violao">Violão</label>
-                <label><input type="checkbox" name="instrumento2" id="instrumento2" value="violino">Violino</label>
-                <label><input type="checkbox" name="instrumento3" id="instrumento3" value="teclado">Teclado</label>
-                <label><input type="checkbox" name="instrumento4" id="instrumento4" value="piano">Piano</label>
-                <label><input type="checkbox" name="instrumento5" id="instrumento5" value="sax">Saxofone</label>
-                <label><input type="checkbox" name="instrumento6" id="instrumento6" value="bateria">Bateria</label>
-            </div>
-        </fieldset>
-        <div>
-            <br>
-            <label for="experiencia"><strong> Conte-nos um pouco de sua experiência musical</strong></label>
-            <textarea name="experiencia" id="experiencia" rows="5" maxlength="400"></textarea>
+    <main class="container">
+        <div class="cabecalho">
+            <h1 class="titulo">Cadastro de alunos</h1>
+            <p class="subtitulo">Preencha com seus dados e opções de curso</p>
         </div>
-        <button type="submit">Enviar dados</button>
-    </form>
+        <form action="" method="post">
+            <fieldset class="grupo dados">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="cpf" id="cpf">CPF</label>
+                    <input type="number" name="cpf" id="cpf" required placeholder="12345678900" maxlength="11">
+                </div>
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+              </fieldset >          
+
+                <div class="campo">
+                    <label><strong>Qual o instrumento preferido?</strong></label><br>
+                    <label>
+                        <input type="radio" name="preferencia" value="violao" checked>Violão
+                    </label>
+                    <label>
+                        <input type="radio" name="preferencia" value="teclado">Teclado
+                    </label>
+                    <label>
+                        <input type="radio" name="preferencia" value="violino">Violino
+                    </label>
+                    <label>
+                        <input type="radio" name="preferencia" value="sax">Saxofone
+                    </label>
+                </div>
+                <div class="campo">
+                    <label for="nivel"><strong>Nível</strong></label>
+                    <select name="nivel" id="nivel" required>
+                        <option value="" disabled selected>Selecione...</option>
+                        <option value="iniciante">Iniciante</option>
+                        <option value="basico">Básico</option>
+                        <option value="intermediario">Intermediário</option>
+                        <option value="avancado">Avançado</option>
+                    </select>
+                </div>
+            <fieldset class="grupo">
+                <div class="instrumento">
+                    <label><strong>Selecione os instrumentos que deseja aprender a tocar?</strong></label>
+                    <br>
+                    <label><input type="checkbox" name="instrumento1" id="instrumento1" value="violao">Violão</label>
+                    <label><input type="checkbox" name="instrumento2" id="instrumento2" value="violino">Violino</label>
+                    <label><input type="checkbox" name="instrumento3" id="instrumento3" value="teclado">Teclado</label>
+                    <label><input type="checkbox" name="instrumento4" id="instrumento4" value="piano">Piano</label>
+                    <label><input type="checkbox" name="instrumento5" id="instrumento5" value="sax">Saxofone</label>
+                    <label><input type="checkbox" name="instrumento6" id="instrumento6" value="bateria">Bateria</label>
+                </div>
+            </fieldset>
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong> Conte-nos um pouco de sua experiência musical</strong></label>
+                <textarea name="experiencia" id="experiencia" rows="5" maxlength="400"></textarea>
+            </div>
+            <button class="botao" type="submit">Enviar dados</button>
+        </form>
+    </main>
 </body>
 </html>

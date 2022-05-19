@@ -1,1 +1,107 @@
 @import url(/Aula-4-flexbox/styles/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@500;700&display=swap');
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fcdebe;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b4d4ee;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 0.9em;
+    color: #182825;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-top: 20px;    
+}
+.titulo{
+    font-size: 2em;
+    font-weight: 600;
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.2);
+}
+.subtitulo{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+}
+#nome{
+    width: 350px;
+}
+.instrumento{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+fieldset{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+input, select, textarea, button{
+    border-radius: 5px;
+}
+strong{
+    font-weight: 600;
+}
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.4em;
+    display: block;
+}
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo input[type="number"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #016fb9;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.2);
+    display: block;
+}
+.campo select option{
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #dacadd;
+    border: 0.5px solid #b4d4ee;
+}
+.botao{
+    font-size: 1.2em;
+    background: #016fb9;
+    border: 0;
+    color: #fff;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.2);
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.8);
+    margin-top: 5em;
+    padding: 0.2em 0.6em;
+}
+.botao, select{
+    cursor: pointer;
+}
+.botao:hover{
+    background: #8198ac;
+    border: 1px solid #016fb9;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+textarea{
+    width: 350px;    
+}
