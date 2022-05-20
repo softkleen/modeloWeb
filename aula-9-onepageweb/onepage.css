@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+#menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+section{
+    
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+#precos, #produtos, #contato, #sobre{
+    padding-top: 40px;
+}
+#home{
+    background-color: #59405c;
+}
+#sobre{
+    background-color: #ed6663;
+}
+#produtos{
+    background-color: #b52b65;
+}
+#precos{
+    background-color: #3c2c3e;
+}
+#contato{
+    background-color: #b52b65;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
