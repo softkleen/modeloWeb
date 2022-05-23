@@ -1,0 +1,48 @@
+ @import url(../Aula-4-flexbox/styles/reset.css);
+table{
+    margin-top: 120px;   
+    border: none; 
+}
+thead, tfoot{
+    background: #2980b9;
+    color: aliceblue;
+}
+thead th, tfoot th{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+    height: 25px;
+}tbody td{
+    color: #2c3d50;
+    padding-left: 5px;
+}
+tbody tr:nth-child(odd){
+    background: #bdc3c7;
+}
+
+
+
+
+
+
+
+
+.custom-shape-divider-top-1653305227 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1653305227 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+}
+.custom-shape-divider-top-1653305227 .shape-fill {
+    fill: #d67a7a;
+}

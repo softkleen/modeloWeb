@@ -19,7 +19,7 @@ header{
     padding: 20px 50px;
     align-items: center;
     position: fixed;
-    z-index: 999;
+    z-index: 2;
 }
 #menu li{
     list-style: none;
