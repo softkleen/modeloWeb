@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+td:first-child,th:first-child {
+    color:red;
+  }
+table td{
+    
+    text-align: center;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+table th{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+td:active {
+    color: aqua;
+}
+.celula {font-weight:bold;font-family:verdana;font-size: 10px;cursor: hand;padding-left:5px;border: 1px solid #FFFFFF;}
+.celhover {font-weight:bold;font-family: verdana; font-size: 10px; border: 1px #000000 dotted; padding-left: 5px; background-color: #f8f8f8;}
