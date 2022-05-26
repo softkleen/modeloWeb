@@ -1,0 +1,42 @@
+html, body, div{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "t t t" "c c c" "b b b";
+    grid-gap: 3px;
+    align-items: center;
+    justify-items: center;
+    
+}
+.container > .box{
+    background: blue;
+    width: 60%;
+    height: 60%;
+}
+.box1{
+    justify-self: end;
+    align-self: flex-end;
+    background: green !important ;
+}
+.box9{
+    align-self: flex-start;
+    justify-self: start;
+    background: green !important ;
+}
+.box3{
+    align-self: flex-end;
+    justify-self: start;
+    background: green !important ;
+}
+.box7{
+    align-self: flex-start;
+    justify-self: end;
+    background: green !important ;
+}
+
