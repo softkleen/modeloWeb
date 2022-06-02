@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias</title>
+
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <video class="vidbg" autoplay="autoplay" loop="loop" preload="auto">
+        <source src="video/vid4.mp4"> 
+    </video>
+    <div class="container">
+        <div class="videos">
+            <div class="video">
+                <figure>
+                    <video controls width="100%" height="100%">
+                    <source  src="video/vid1.mp4" type="video/mp4">
+                    </video>
+                    <caption>Video de abertura</Video></caption>
+                </figure>
+        
+            </div>
+            <div class="video">
+                <video poster="video/vid1.mp4" src="video/vid2.mp4" type="video/mp4" controls width="100%" height="100%" autoplay muted>
+                </video>
+            </div>
+            <div class="video">
+                <video controls width="100%" height="100%">
+                    <source  src="video/vid3.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video">
+                <video controls width="100%" height="100%">
+                    <source  src="video/vid4.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="audios">
+            <div class="audio">
+                <label for="#a1">
+                    Música 1
+                    <audio id="a1" src="audio/aud1.mp3" controls autoplay></audio>
+                </label>
+            </div>
+            <div class="audio">
+                <label for="#a1">
+                    Música 2
+                    <audio id="a1" src="audio/aud2.mp3" controls autoplay></audio>
+                </label>
+            </div>
+            <div class="audio">
+                <label for="#a1">
+                    Música 3
+                    <audio id="a1" src="audio/aud3.mp3" controls autoplay></audio>
+                </label>
+            </div>
+            <div class="audio">
+                <label for="#a1">
+                    Música 4
+                    <audio id="a1" src="audio/aud4.mp3" controls autoplay></audio>
+                </label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
